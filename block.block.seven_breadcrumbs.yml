@@ -1,0 +1,22 @@
+uuid: 79e4766e-8eb5-4d8d-b26e-04832ae542cf
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: WWu2OQswgCztl9OeXjD1stexIEMZsSgPMYIdC-JHx9c
+id: seven_breadcrumbs
+theme: seven
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 导航路径
+  provider: system
+  label_display: '0'
+visibility: {  }

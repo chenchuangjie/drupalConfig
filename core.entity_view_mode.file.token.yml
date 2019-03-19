@@ -1,0 +1,10 @@
+uuid: beccb40c-6aeb-4dd0-bccc-f0e19775a170
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - file
+id: file.token
+label: Token
+targetEntityType: file
+cache: true

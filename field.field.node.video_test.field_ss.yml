@@ -1,0 +1,26 @@
+uuid: f31b77ba-5f49-4dea-acfa-795032f6c020
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ss
+    - node.type.video_test
+  module:
+    - video
+id: node.video_test.field_ss
+field_name: field_ss
+entity_type: node
+bundle: video_test
+label: ss
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: ''
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: video

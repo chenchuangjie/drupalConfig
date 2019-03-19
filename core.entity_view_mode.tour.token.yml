@@ -1,0 +1,10 @@
+uuid: 0a7f50a5-bdd0-4aae-a578-04a7c364b9db
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - tour
+id: tour.token
+label: Token
+targetEntityType: tour
+cache: true

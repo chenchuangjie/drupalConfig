@@ -1,0 +1,10 @@
+uuid: 360edc8a-bacb-4c59-ac2f-7aa7e7c3c02b
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.token
+label: Token
+targetEntityType: menu_link_content
+cache: true

@@ -1,0 +1,70 @@
+uuid: 590c1f2a-0369-4376-910e-7d7617476e8a
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - dropzonejs_eb_widget
+name: ceshi
+label: 测试
+display: iframe
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: true
+selection_display: multi_step_display
+selection_display_configuration:
+  entity_type: filebrowser_metadata_entity
+  display: label
+  display_settings: {  }
+  select_text: 加载选择
+  selection_hidden: false
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets:
+  6e23149a-5b4a-4bf0-ba81-7430be531e60:
+    settings:
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 2M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: 'Select entities'
+      auto_select: true
+    uuid: 6e23149a-5b4a-4bf0-ba81-7430be531e60
+    weight: 2
+    label: dropzonejs
+    id: dropzonejs
+  23247ec1-c2a7-4e56-b20a-d46dec6c9b0e:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: 选择文件
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+    uuid: 23247ec1-c2a7-4e56-b20a-d46dec6c9b0e
+    weight: 2
+    label: upload
+    id: upload
+  606ed2cc-335c-4c03-a95b-6ed4b3565951:
+    settings:
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 2M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: 606ed2cc-335c-4c03-a95b-6ed4b3565951
+    weight: 3
+    label: dropzonejs
+    id: dropzonejs

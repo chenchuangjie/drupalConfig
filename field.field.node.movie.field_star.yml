@@ -1,0 +1,28 @@
+uuid: f830c122-b527-45bc-8448-1cc71e73f735
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_star
+    - node.type.movie
+    - node.type.people
+id: node.movie.field_star
+field_name: field_star
+entity_type: node
+bundle: movie
+label: 演员
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      people: people
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

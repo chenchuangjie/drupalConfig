@@ -1,0 +1,14 @@
+uuid: 71d6e47a-6c7c-4771-91e2-37e81f0c0f10
+langcode: zh-hans
+status: true
+dependencies: {  }
+name: poster_medium
+label: 中号海报
+effects:
+  c0d96bbe-3a76-45fa-a34f-eda733091778:
+    uuid: c0d96bbe-3a76-45fa-a34f-eda733091778
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 432
+      height: 638

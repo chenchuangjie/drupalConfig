@@ -1,0 +1,11 @@
+uuid: 02706280-6fac-41ee-8416-28ba5856d66a
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.movie
+id: node.movie
+target_entity_type_id: node
+target_bundle: movie
+default_langcode: site_default
+language_alterable: false

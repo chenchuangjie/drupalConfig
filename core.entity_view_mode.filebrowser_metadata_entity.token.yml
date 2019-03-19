@@ -1,0 +1,10 @@
+uuid: 6f47e4e0-def3-48d9-aaab-5d171a78c138
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - filebrowser
+id: filebrowser_metadata_entity.token
+label: Token
+targetEntityType: filebrowser_metadata_entity
+cache: true

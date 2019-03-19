@@ -1,0 +1,22 @@
+uuid: 1f0956fc-22ac-4d8e-b24d-41d11a37ac77
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.movie_file
+  module:
+    - text
+id: node.movie_file.body
+field_name: body
+entity_type: node
+bundle: movie_file
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,29 @@
+uuid: f928b75e-2585-4e90-99c0-f87c35f87674
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.video_test.body
+    - node.type.video_test
+  module:
+    - text
+    - user
+id: node.video_test.teaser
+targetEntityType: node
+bundle: video_test
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

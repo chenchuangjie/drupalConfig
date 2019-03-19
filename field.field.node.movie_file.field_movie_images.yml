@@ -1,0 +1,38 @@
+uuid: e638998c-77a2-4ccb-89bc-58a8ef14878a
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_images
+    - node.type.movie_file
+  module:
+    - image
+id: node.movie_file.field_movie_images
+field_name: field_movie_images
+entity_type: node
+bundle: movie_file
+label: 电影图片
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

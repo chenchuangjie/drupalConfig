@@ -1,0 +1,14 @@
+uuid: f3bfdce5-8553-465e-b28b-1e1587416afe
+langcode: zh-hans
+status: true
+dependencies: {  }
+name: xiaohao
+label: '小号海报 （200 X 296）'
+effects:
+  df1f33ee-7184-4502-98b6-d9c4ccc63911:
+    uuid: df1f33ee-7184-4502-98b6-d9c4ccc63911
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 296

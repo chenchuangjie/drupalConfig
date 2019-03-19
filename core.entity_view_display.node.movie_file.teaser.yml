@@ -1,0 +1,29 @@
+uuid: 3b080d7d-9d01-4839-b7e9-1f6df7470916
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.movie_file.body
+    - node.type.movie_file
+  module:
+    - text
+    - user
+id: node.movie_file.teaser
+targetEntityType: node
+bundle: movie_file
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

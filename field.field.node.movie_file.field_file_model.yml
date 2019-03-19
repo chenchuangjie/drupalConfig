@@ -1,0 +1,27 @@
+uuid: 0781e682-c4b0-44f8-a3da-e1b77df70d03
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file_model
+    - node.type.movie_file
+  module:
+    - file
+id: node.movie_file.field_file_model
+field_name: field_file_model
+entity_type: node
+bundle: movie_file
+label: 文件
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc png jpg'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

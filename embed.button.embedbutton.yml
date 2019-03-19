@@ -1,0 +1,24 @@
+uuid: a403423e-a633-470a-8edd-918fc76a800b
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.movie_file
+  content:
+    - 'file:file:37230c72-895f-4050-b637-44d4cd41a575'
+  module:
+    - entity_embed
+    - node
+label: Embedbutton
+id: embedbutton
+type_id: entity
+type_settings:
+  entity_type: node
+  bundles:
+    - movie_file
+  display_plugins:
+    - 'view_mode:node.full'
+  entity_browser: ceshi
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 37230c72-895f-4050-b637-44d4cd41a575

@@ -1,0 +1,15 @@
+uuid: af6c5751-839b-40a3-88dd-ba89b76c0cd1
+langcode: zh-hans
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 匿名用户
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'

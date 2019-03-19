@@ -1,0 +1,11 @@
+uuid: ac9c26f0-0345-467a-895b-3b5dc4264be2
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.people
+id: node.people
+target_entity_type_id: node
+target_bundle: people
+default_langcode: site_default
+language_alterable: false

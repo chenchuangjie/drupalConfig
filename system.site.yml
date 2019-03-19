@@ -1,0 +1,14 @@
+uuid: 43228056-ae6e-4029-abae-9a5c264fd6ff
+name: drupal练习网站
+mail: zeusweb@163.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: zh-hans
+default_langcode: zh-hans
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

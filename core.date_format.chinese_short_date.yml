@@ -1,0 +1,8 @@
+uuid: d59ce1f3-3686-4928-aeb5-5c84f8945f17
+langcode: zh-hans
+status: true
+dependencies: {  }
+id: chinese_short_date
+label: 'Chinese short date'
+locked: false
+pattern: 'Y 年 n 月 j 日'

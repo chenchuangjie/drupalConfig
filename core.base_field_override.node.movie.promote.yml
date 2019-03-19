@@ -1,0 +1,22 @@
+uuid: 1d1aa21a-f31a-41e9-af63-5346d74f3a98
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.movie
+id: node.movie.promote
+field_name: promote
+entity_type: node
+bundle: movie
+label: 推荐到首页
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 开启
+  off_label: 关闭
+field_type: boolean

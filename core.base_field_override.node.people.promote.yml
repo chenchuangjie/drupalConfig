@@ -1,0 +1,22 @@
+uuid: 76812fdd-758d-436a-bf44-3fdf3df020fa
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.people
+id: node.people.promote
+field_name: promote
+entity_type: node
+bundle: people
+label: 推荐到首页
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 开启
+  off_label: 关闭
+field_type: boolean

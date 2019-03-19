@@ -1,0 +1,17 @@
+uuid: 59e9cd60-6276-46dc-aeaa-ea79ee9bf2e6
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'video test'
+type: video_test
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,18 @@
+uuid: 81622d8b-55fd-4348-8c9d-e5b4c55d86c7
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 电影文件
+type: movie_file
+description: 电影文件
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

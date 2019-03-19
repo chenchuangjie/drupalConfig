@@ -1,0 +1,22 @@
+uuid: c07fe469-f8f3-4946-b707-07df33bbf38d
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.video_test
+id: node.video_test.promote
+field_name: promote
+entity_type: node
+bundle: video_test
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: 7f479ad6-9fb6-48e6-aaef-5973e4a3eef4
+langcode: zh-hans
+status: true
+dependencies: {  }
+name: 类型
+vid: genre
+description: 描述电影类型
+hierarchy: 0
+weight: 0

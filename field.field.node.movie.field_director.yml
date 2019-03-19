@@ -1,0 +1,28 @@
+uuid: c681e957-a68b-48f7-a12e-23088edabe49
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_director
+    - node.type.movie
+    - node.type.people
+id: node.movie.field_director
+field_name: field_director
+entity_type: node
+bundle: movie
+label: 导演
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      people: people
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

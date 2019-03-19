@@ -1,0 +1,27 @@
+uuid: ec608b43-ad43-4c66-b8f7-af72b463e3e6
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.field.node.people.body
+    - node.type.people
+  module:
+    - text
+    - user
+id: node.people.default
+targetEntityType: node
+bundle: people
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

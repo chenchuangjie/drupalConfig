@@ -1,0 +1,55 @@
+uuid: 1f0ba35e-f3a2-442a-a36c-b004c72f684a
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.field.node.video_test.body
+    - field.field.node.video_test.field_ss
+    - field.field.node.video_test.field_ve
+    - node.type.video_test
+  module:
+    - file
+    - text
+    - user
+    - videojs
+id: node.video_test.default
+targetEntityType: node
+bundle: video_test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_ss:
+    weight: 103
+    label: above
+    settings:
+      width: '854'
+      height: '480'
+      controls: true
+      autoplay: false
+      loop: false
+      muted: false
+      preload: none
+    third_party_settings: {  }
+    type: videojs_player_list
+    region: content
+  field_ve:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

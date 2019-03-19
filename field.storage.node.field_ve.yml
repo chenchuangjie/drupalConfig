@@ -1,0 +1,23 @@
+uuid: e8128512-f756-48cf-ac0c-6a08ea8a2ca9
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_ve
+field_name: field_ve
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
